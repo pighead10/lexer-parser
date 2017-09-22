@@ -1,0 +1,48 @@
+Enter string to tokenize:
+-3.45*2.87+5
+OP: SUB
+NUMBER: 3.45
+OP: MULT
+NUMBER: 2.87
+OP: ADD
+NUMBER: 5
+fac -> float
+cosine -> fac
+fac -> float
+cosine -> fac
+mult -> cosine
+mult -> cosine * mult
+sub -> - mult
+add -> sub
+fac -> float
+cosine -> fac
+mult -> cosine
+sub -> mult
+add -> add + sub
+S -> add
+Success
+
+Enter string to tokenize:
+8.5675!*cos54-8.9
+NUMBER: 8.5675
+OP: FAC
+OP: MULT
+OP: COS
+NUMBER: 54
+OP: SUB
+NUMBER: 8.9
+fac -> fac !
+cosine -> fac
+fac -> float
+cosine -> fac
+cosine -> cos cosine
+mult -> cosine
+mult -> cosine * mult
+sub -> mult
+fac -> float
+cosine -> fac
+mult -> cosine
+sub -> sub - mult
+add -> sub
+S -> add
+Success
